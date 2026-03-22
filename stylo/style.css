@@ -71,6 +71,26 @@ section{
     font-size: 3.5%vw;
 }
 
+section > p{
+    padding-bottom: 2em;
+}
+
+section #img1{
+
+    background-position: right center;
+    background-image:url(../imagens/background001.jpg) ;
+    background-size: cover;
+
+}
+
+section #img2{
+
+    background-position: right center;
+    background-image: url(../imagens/background002.jpg);
+    background-size: cover;
+    
+}
+
 
 section.normal{
 
@@ -81,13 +101,15 @@ section.normal{
 section.imagem{
     background-color: black;
     color: white;
-
+    box-shadow: inset 6px 6px 13px 0px rgb(83, 82, 82);
 }
 
 section.imagem > p{
     display: inline-block;
     padding: 5px;
+    text-shadow: 2px 2px 0px black;
     background-color: black;
+    background-attachment: fixed;
     
 }
 
